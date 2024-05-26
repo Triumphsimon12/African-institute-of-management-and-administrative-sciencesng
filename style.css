@@ -1,0 +1,184 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: Beige;
+}
+
+header {
+ background-color:cream;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+nav li {
+ margin-right: 20px;
+}
+
+nav a {
+ color: #fff;
+ text-decoration: none;
+}
+
+main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+}
+
+section {
+ background-color: #fff;
+ padding: 20px;
+ margin-bottom: 20px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+ margin-top: 0;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+label {
+ margin-bottom: 10px;
+}
+
+input, textarea {
+ padding: 10px;
+ margin-bottom: 20px;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {background: ;
+ background-color: #333;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+footer {
+ background-color: #333;
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+ clear: both;
+}
+/* Showcase */
+ .image-caption {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+ color: #fff;
+ background-color: rgba(0, 0, 0, 0.5);
+ padding: 60px;
+ border-radius: 20px;
+ font-weight:bold;
+ font-size: 30px;
+}
+
+.showcase-image {
+    width: 100%;
+    height: 450px;
+    margin-button: 50px;
+}
+
+
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 30px;
+}
+
+.btn{
+    font-size: 21px;
+}
+
+.water-drop1 {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  border-radius: 5px;
+  
+}
+
+.water-drop2 {
+  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+  border-radius: 5px;
+}
+
+.water-drop3{
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  border-radius: 5px;
+}
+
+.water-drop4 {
+  background: linear-gradient(to right, #232526, #414345);
+  border-radius: 5px;
+}
+
+.water-drop5 {
+  background: linear-gradient(to right, #3a1c71, #415656fa);
+  border-radius: 5px;
+}
+
+.btn.settings {
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+.btn.thank-you {
+  background: linear-gradient(to right, #00b09b, #96c93d);
+}
+
+.btn.denied {
+  background: linear-gradient(to right, #e52d27, #b31217);
+}
+
+.btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+about {
+    border-radius: 30px;
+}
+
+
+ .image-caption2 {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+ color: #fff;
+ background-color: rgba(0, 0, 0, 0.5);
+ padding: 60px;
+ border-radius: 20px;
+ font-weight:bold;
+ font-size: 30px;
+}
+
+.showcase-image2 {
+    width: 100%;
+    height: 160px;
+    margin-button: 1px;
+    border-radius: 20px;
+}
